@@ -454,3 +454,29 @@ hr {
     justify-content: flex-start;
     font-size: 1.1vw;
 }
+
+/* Updated popup backgrounds */
+.error {
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
+/* Dropdown modern style */
+.dropdownOptions {
+    background-color: #2f2f2f;
+    border-radius: 1vw;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.4);
+    margin-bottom: 0.5vw;
+}
+
+/* Dropdown selector */
+.dropdownSelector {
+    border-radius: 1vw;
+    background-color: #2f2f2f;
+    box-shadow: 0 0.25vw 0.75vw rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: dropdownOption inner box */
+.dropdownOption {
+    padding: 0.5vw;
+    border-radius: 0.75vw;
+}
