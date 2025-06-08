@@ -308,3 +308,12 @@ generategames("./assets/json/base.json");
 generatefaqs();
 generatelaunchers("./assets/json/base.json");
 console.clear();
+
+document.addEventListener("click", function (event) {
+    const dropdown = document.getElementById("dropdn");
+    const selector = document.querySelector(".dropdownSelector");
+
+    if (dropdown.style.visibility === 'visible' && !selector.contains(event.target) && !dropdown.contains(event.target)) {
+        dropdowntoggle(); // Closes dropdown if clicked outside
+    }
+});
